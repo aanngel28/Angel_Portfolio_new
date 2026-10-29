@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Angel's portfolio showcasing web development skills and projects.">
+  <title>Angel | Portfolio</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="logo" href="#home">ANGEL<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-glow"></div>
+      <div class="hero-logo" aria-label="Angel's initials">AK</div>
+      <p class="eyebrow">STUDENT &amp; ASPIRING DEVELOPER</p>
+      <h1>Hi, I'm <span>Angel</span></h1>
+      <h2 class="hero-subtitle">I create things for the web.</h2>
+      <p class="hero-description">
+        I'm a student and aspiring developer who enjoys building
+        creative, useful and user-friendly digital experiences.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">View My Work <span>↗</span></a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/aanngel28" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/angel-yakar-9ba818391/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+      </div>
+      <a href="#about" class="scroll-down" aria-label="Scroll to About">↓</a>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <h2>About <span>Me</span></h2>
+          <p class="section-description">A little introduction to who I am and what I enjoy.</p>
+        </div>
+        <div class="about-content">
+          <div class="about-art">
+            <div class="about-monogram">AK</div>
+            <span class="art-orbit orbit-one"></span>
+            <span class="art-orbit orbit-two"></span>
+          </div>
+          <div class="about-text">
+            <h3>Hey, I'm Angel!</h3>
+            <p>
+              I'm a student with a growing interest in programming,
+              web development and technology. I enjoy turning ideas
+              into websites that look good and are easy to use.
+            </p>
+            <p>
+              I'm learning new tools, experimenting with projects and
+              improving my skills one step at a time. This portfolio
+              is a place to share my work and progress.
+            </p>
+            <a href="#contact" class="text-link">Let's connect <span>→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I'M LEARNING</p>
+          <h2>My <span>Skills</span></h2>
+          <p class="section-description">Tools and technologies I'm developing experience with.</p>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-icon html-icon">&lt;/&gt;</div>
+            <h3>HTML</h3>
+            <p>Building the structure and content of web pages.</p>
+            <span class="skill-tag">Web structure</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon css-icon">#</div>
+            <h3>CSS</h3>
+            <p>Creating layouts, styling elements and responsive designs.</p>
+            <span class="skill-tag">Web design</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon js-icon">JS</div>
+            <h3>JavaScript</h3>
+            <p>Adding interactions and dynamic behaviour to websites.</p>
+            <span class="skill-tag">Interactivity</span>
+          </article>
+          <article class="skill-card">
+            <div class="skill-icon git-icon">G</div>
+            <h3>Git &amp; GitHub</h3>
+            <p>Tracking changes and sharing code with repositories.</p>
+            <span class="skill-tag">Version control</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SOME THINGS I'VE WORKED ON</p>
+          <h2>My <span>Projects</span></h2>
+          <p class="section-description">A selection of my work and learning projects.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card featured-project">
+            <div class="project-visual roadx-visual">
+              <span class="project-number">01</span>
+              <div class="road-graphic">
+                <span class="road-line"></span>
+                <span class="road-sensor sensor-left">S1</span>
+                <span class="road-sensor sensor-right">S2</span>
+              </div>
+              <span class="project-visual-label">ROAD SAFETY SYSTEM</span>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>Electronics &amp; IoT</span><span>Featured</span></div>
+              <h3>RoadX</h3>
+              <p>
+                A smart road safety concept focused on detecting
+                nearby obstacles and providing alerts using sensors,
+                an ESP32 board, a display and a buzzer.
+              </p>
+              <div class="tech-tags">
+                <span>ESP32</span><span>Ultrasonic sensors</span><span>Arduino</span>
+              </div>
+              <a class="text-link" href="https://github.com/aanngel28" target="_blank" rel="noopener noreferrer">
+                Explore on GitHub <span>↗</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-visual portfolio-visual">
+              <span class="project-number">02</span>
+              <div class="mini-window">
+                <div class="mini-window-top"><i></i><i></i><i></i></div>
+                <div class="mini-window-content"><span>AK.</span><b>My Portfolio</b><small>HTML · CSS · JS</small></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <div class="project-meta"><span>Web Development</span></div>
+              <h3>Personal Portfolio</h3>
+              <p>A personal website to present my introduction, skills, projects and contact links.</p>
+              <div class="tech-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <a class="text-link" href="https://github.com/aanngel28" target="_blank" rel="noopener noreferrer">View GitHub <span>↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">HAVE AN IDEA?</p>
+          <h2>Let's <span>Connect</span></h2>
+          <p class="section-description">Have a project idea or just want to say hello? I'd love to hear from you.</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-item">
+            <span class="contact-icon">@</span>
+            <div><small>Email me</small><a href="mailto:angelyakar28@gmail.com">angelyakar28@gmail.com</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">GH</span>
+            <div><small>Find me on GitHub</small><a href="https://github.com/aanngel28" target="_blank" rel="noopener noreferrer">github.com/aanngel28 ↗</a></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">in</span>
+            <div><small>Connect on LinkedIn</small><a href="https://www.linkedin.com/in/angel-yakar-9ba818391/" target="_blank" rel="noopener noreferrer">Angel on LinkedIn ↗</a></div>
+          </div>
+          <a class="btn btn-primary email-button" href="mailto:angelyakar28@gmail.com">Say Hello <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <a class="logo" href="#home">ANGEL<span>.</span></a>
+      <p>Designed &amp; built by Angel.</p>
+      <a href="#home" class="back-top">Back to top ↑</a>
+    </div>
+    <p class="copyright">© <span id="year"></span> Angel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
