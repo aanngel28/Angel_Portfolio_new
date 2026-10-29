@@ -1,0 +1,59 @@
+* style.css — Your first CSS file */
+ 
+/* A CSS rule has 3 parts:
+   SELECTOR { PROPERTY: VALUE; }
+ 
+   Selector = WHAT to style
+   Property = WHAT aspect to change
+   Value = HOW to change it
+*/
+ 
+/* Style ALL paragraphs */
+p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+ 
+/* Style elements with class="highlight" */
+highlight {
+    color: #2E86AB;
+    font-weight: bold;
+}
+ 
+/* Style the element with id="hero" */
+hero {
+    background-color: #1B4F72;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+ 
+/* The Box Model */
+box {
+    /* Content */
+    width: 300px;
+    height: 200px;
+ 
+    /* Padding: space INSIDE the border */
+    padding: 20px;              /* all 4 sides */
+    padding: 10px 20px;         /* top/bottom  left/right */
+    padding: 10px 20px 15px 5px; /* top right bottom left (clockwise) */
+ 
+    /* Border */
+    border: 2px solid #333;
+    border-radius: 8px;         /* rounded corners */
+ 
+    /* Margin: space OUTSIDE the border */
+    margin: 20px;
+    margin: 0 auto;             /* center horizontally */
+}
+ 
+/* THE GOLDEN RULE — always put this first in your CSS! */
+*
+{
+    box-sizing: border-box; /* Width now INCLUDES padding + border */
+    margin: 0;
+    padding: 0;
+}
+ 
